@@ -35,7 +35,7 @@ dev分支合并到main分支上：git merge dev
 
 ### *解决冲突*
 
-查看提交历史以图形：```git log --graph --pretty=oneline --abbrev-commit```
+查看提交历史以图形：`git log --graph --pretty=oneline --abbrev-commit`
 
 ## 关联链接
 
