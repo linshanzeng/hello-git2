@@ -4,7 +4,7 @@
 
 ### 从远程仓库克隆
 
-克隆一个本地库：`git@github.com:linshanzeng/hello-git2.git`
+克隆一个本地库：`git clone git@github.com:linshanzeng/hello-git2.git`
 
 ## 分支管理
 
