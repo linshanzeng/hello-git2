@@ -20,6 +20,13 @@
 
 查看当前分支：`git branch`
 
+dev分支合并到main分支上：
+
+```text
+git checkout main
+git merge dev
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
