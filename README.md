@@ -23,8 +23,9 @@
 dev分支合并到main分支上：
 
 ```text
-git checkout main
-git merge dev
+切换到main分支：git checkout main
+dev分支合并到main分支上：git merge dev
+删除dev分支：git branch -d dev
 ```
 
 ## 关联链接
