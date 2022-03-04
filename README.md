@@ -16,9 +16,14 @@
 方法二：
 创建dev分支：git branch dev
 切换到dev分支：git checkout dev
+方法三：
+git switch -c dev
+方法四：
+git branch dev
+git switch dev
 ```
 
-查看当前分支：`git branch`
+查看分支：`git branch`
 
 dev分支合并到main分支上：
 
