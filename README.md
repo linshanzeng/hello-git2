@@ -124,6 +124,20 @@ git push origin main
 rebase操作可以把本地未push的分叉提交历史整理成直线
 ```
 
+## 标签管理
+
+### 创建标签
+
+打一个先新标签：`git tag v1.0`
+
+查看所有标签：`git tag`
+
+给某次提交打标签：`git tag v0.9 f52c633`
+
+打一个带说明的标签：`git tag -a v0.1 -m "version 0.1 released" 1094adb`
+
+查看标签信息：`git show v0.9`
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
