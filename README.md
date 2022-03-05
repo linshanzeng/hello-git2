@@ -153,6 +153,18 @@ git tag -d v0.9
 git push origin :refs/tags/v0.9
 ```
 
+## 使用Gitee
+
+删除已有的GitHub远程库：`git remote rm origin`
+
+关联GitHub远程库：`git remote add github git@github.com:linshanzeng/hello-git.git`
+
+关联Gitee远程库：`git remote add gitee git@gitee.com:chiyisan/hello-git2.git`
+
+推送到GitHub：`git push github main`
+
+推送到Gitee：`git push gitee master`
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
