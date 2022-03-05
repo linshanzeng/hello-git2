@@ -204,3 +204,7 @@ git log别名：git config --global alias.lg "log --color --graph --pretty=forma
 [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664)
 
 [忽略特殊文件配置文件](https://github.com/github/gitignore)
+
+[Git Cheat Sheet](https://liaoxuefeng.gitee.io/resource.liaoxuefeng.com/git/git-cheat-sheet.pdf)
+
+[Git的官方网站](https://git-scm.com/)
