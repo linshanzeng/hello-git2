@@ -78,6 +78,41 @@ git switch dev
 
 强制删除：`git branch -D feature-vulcan`
 
+### *多人协作*
+
+查看远程库：git remote
+查看远程库详细信息：git remote -v
+推送分支：
+
+```text
+git push origin main
+推送dev分支：git push origin dev
+master分支是主分支，推送
+dev分支是开发分支，推送
+bug分支，可选
+feature分支，可选
+```
+
+抓取分支
+
+```text
+git clone git@github.com:linshanzeng/hello-git2.git
+clone后默认只有main分支：git branch
+git switch -c dev origin/dev
+抓取分支：git pull
+指定本地dev分支和远程dev分支链接：git branch --set-upstream-to=origin/dev dev
+```
+
+多人协作的工作模式：
+
+```text
+1.首先，可以试图用git push origin dev推送自己的修改；
+2.如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+3.如果合并有冲突，则解决冲突，并在本地提交；
+4.没有冲突或者解决掉冲突后，再用git push origin dev推送就能成功！
+如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to=origin/dev dev。
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
