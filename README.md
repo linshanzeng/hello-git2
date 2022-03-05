@@ -165,6 +165,10 @@ git push origin :refs/tags/v0.9
 
 推送到Gitee：`git push gitee master`
 
+## 自定义Git
+
+显示颜色：`git config --global color.ui true`
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
