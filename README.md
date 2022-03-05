@@ -113,6 +113,17 @@ git switch -c dev origin/dev
 如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to=origin/dev dev。
 ```
 
+Rebase
+
+```text
+别人先提交，出现问题：git push origin main
+git pull
+变基：git rebase
+git push origin main
+
+rebase操作可以把本地未push的分叉提交历史整理成直线
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
