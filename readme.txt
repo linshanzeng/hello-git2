@@ -3,3 +3,4 @@ add merge
 add merge with ff
 test
 test merge by default
+test
