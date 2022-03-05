@@ -178,7 +178,7 @@ git push origin :refs/tags/v0.9
 强制添加：git add -f App.class
 方法二：
 查看出错规则：git check-ignore -v App.class
-
+修改.gitignore文件
 ```
 
 ## 关联链接
