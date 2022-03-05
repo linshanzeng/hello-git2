@@ -116,8 +116,8 @@ git switch -c dev origin/dev
 Rebase
 
 ```text
-别人先提交，出现问题：git push origin main
-git pull
+git push origin main
+别人先提交，出现问题：git pull
 变基：git rebase
 git push origin main
 
