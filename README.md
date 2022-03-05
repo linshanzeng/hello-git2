@@ -157,7 +157,7 @@ git push origin :refs/tags/v0.9
 
 删除已有的GitHub远程库：`git remote rm origin`
 
-关联GitHub远程库：`git remote add github git@github.com:linshanzeng/hello-git.git`
+关联GitHub远程库：`git remote add github git@github.com:linshanzeng/hello-git2.git`
 
 关联Gitee远程库：`git remote add gitee git@gitee.com:chiyisan/hello-git2.git`
 
