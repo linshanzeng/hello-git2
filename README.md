@@ -28,14 +28,27 @@ git switch dev
 dev分支合并到main分支上：
 
 ```text
-切换到main分支：git checkout main
+git add readme.txt
+git commit -m "branch test"
+git switch main
 dev分支合并到main分支上：git merge dev
 删除dev分支：git branch -d dev
+git branch
 ```
 
 ### *解决冲突*
 
 查看提交历史以图形：`git log --graph --pretty=oneline --abbrev-commit`
+
+### *分支管理策略*
+
+```text
+git switch -c dev
+git add readme.txt
+git commit -m "add merge"
+git swich master 
+强制禁用Fast forward，dev分支合并到main分支上：git merge --no-ff -m "merge with no-ff" dev
+```
 
 ## 关联链接
 
