@@ -181,6 +181,20 @@ git push origin :refs/tags/v0.9
 修改.gitignore文件
 ```
 
+### 配置别名
+
+```text
+status别名：git config --global alias.st status
+checkout别名：git config --global alias.ck checkout
+commit别名：git config --global alias.cm commit
+branch别名：git config --global alias.br branch
+reset HEAD别名：git config --global alias.rs 'reset HEAD'
+log -1别名：git config --global alias.last 'log -1'
+git log别名：git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+当前仓库配置文件：cat .git/config
+当前用户配置文件：cat ~/.gitconfig
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
