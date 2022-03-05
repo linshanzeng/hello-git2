@@ -74,6 +74,10 @@ git switch dev
 删除现场：git stash drop
 ```
 
+### Feature分支
+
+强制删除：`git branch -D feature-vulcan`
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
