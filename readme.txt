@@ -1,7 +1,7 @@
 Creating a new branch is quick AND simple.
 Git is a free software.
 add merge ff
-Git is a free and easy software.
+Git is a free and great software.
 test
 test merge by default
 test
