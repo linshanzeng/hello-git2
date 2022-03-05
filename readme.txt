@@ -4,3 +4,4 @@ add merge with ff
 test
 test merge by default
 test
+test merge by no-ff
