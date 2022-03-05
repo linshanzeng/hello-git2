@@ -138,6 +138,21 @@ rebase操作可以把本地未push的分叉提交历史整理成直线
 
 查看标签信息：`git show v0.9`
 
+### 操作标签
+
+删除一个标签：`git tag -d v0.1`
+
+推送一个标签：`git push origin v1.0`
+
+推送所有未推送的标签：`git push origin --tags`
+
+删除一个远程标签：
+
+```text
+git tag -d v0.9
+git push origin :refs/tags/v0.9
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
