@@ -50,6 +50,30 @@ git swich master
 强制禁用Fast forward，dev分支合并到main分支上：git merge --no-ff -m "merge with no-ff" dev
 ```
 
+### *Bug分支*
+
+```text
+touch hello.py
+git add hello.py
+储藏现场：git stash
+git switch main
+git switch -c issue-101
+git add readme.txt
+git commit -m "fix bug 101"
+git switch main
+git merge --no-ff -m "merged fix bug 101" issue-101
+git branch -d issue-101
+git switch dev
+同步修复bug（fix bug 101）：git cherry-pick 2113a85
+查看所有现场：git stash list
+
+第一种：
+恢复并删除现场：git stash pop
+第二种：
+恢复现场：git stash apply
+删除现场：git stash drop
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
