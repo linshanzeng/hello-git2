@@ -6,3 +6,4 @@ test merge by default
 test
 test merge by no-ff
 test
+test
