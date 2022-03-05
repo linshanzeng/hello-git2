@@ -169,6 +169,18 @@ git push origin :refs/tags/v0.9
 
 显示颜色：`git config --global color.ui true`
 
+### 忽略特殊文字
+
+强制添加文件到Git：
+
+```text
+方法一：
+强制添加：git add -f App.class
+方法二：
+查看出错规则：git check-ignore -v App.class
+
+```
+
 ## 关联链接
 
 [hello-git](https://github.com/linshanzeng/hello-git)
@@ -176,3 +188,5 @@ git push origin :refs/tags/v0.9
 ## 参考链接
 
 [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664)
+
+[忽略特殊文件配置文件](https://github.com/github/gitignore)
